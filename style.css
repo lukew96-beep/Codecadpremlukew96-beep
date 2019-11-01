@@ -10,7 +10,9 @@
 .nav a{display:inline-block;
     padding:10px;}
     * {box-sizing: border-box}
-
+    .intro p {color: rgb(226, 123, 27);
+      background-color: none;
+    align-items: center}
     /* Full-width input fields */
       input[type=text], input[type=password] {
       width: 100%;
@@ -20,6 +22,7 @@
       border: none;
       background: #f1f1f1;
     }
+   
     
     input[type=text]:focus, input[type=password]:focus {
       background-color: #ddd;
