@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="CSS(stylesheet): type=text\css" href=style.css>
-   <link href="/source/register.php">
-   <script src="..\\wordbook\index.js"></script>
-        <meta charset="utf-8"/>
+   <link rel="stylesheet" type="text/css" href=style.css>
+   <script src="./index.js"></script>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>WordBook</title>
 </head>
-<center><h1 class="rainbow-text">WordBook</h1></center>
-    <ul class="nav">
+<h1>Word<span class="book">Book</span></h1>
+    <div>
+        <ul class="nav">
         <li><a href="#home">Home</li>
         <li><a href="#cat">Catagories</li>
         <li><a href="#art">Articles</li>
         <li><a href="#about">About</li>
       </div>
-      <p class="intro">WordBook is a social media platform just for writers to collaberate, read, write and enjoy each other's literature. 
-          This growing community joined by a love for writing is for readers and writers alike. We hope you enjoy it!
-      </p>
-      <form id='register' action='register.php' method='post'
-      
-              accept-charset='UTF-8'>
+      <div>
+     <h2 id="intro">WordBook is a social media platform just for writers to collaberate, read, write and enjoy each other's literature. 
+          This growing community joined by a love for writing is for readers and writers alike. We hope you enjoy it!</h2>
+     </div>
+      <div>
+      <!-- <form id='register'  action="javascript:submitForm(this)" method='POST' accept-charset='UTF-8'> -->
+    <form id='register'  action="javascript:void(0)" onSubmit="subimitForm()" method='POST' accept-charset='UTF-8'>
       
           <fieldset >
       
@@ -27,7 +28,7 @@
       
           <input type='hidden' name='submitted' id='submitted' value='1'/>
       
-          <label for='name' >Your Full Name*: </label>
+          <label for='name' >Full Name or Pen Name: </label>
       
           <input type='text' name='name' id='name' maxlength="50" />
       
@@ -54,7 +55,10 @@
           </fieldset>
       
           </form>
-          <form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+        </div>  
+            <div>
+            
+          <form id='submission' action='login.php' method='POST' accept-charset='UTF-8'>
                 
                 <fieldset >
                 
@@ -83,7 +87,7 @@
                 </fieldset>
                 
                 </form>
-     
+              </div>
 
 
 

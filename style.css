@@ -1,3 +1,13 @@
+h1 {color:red;
+text-align:center;}
+.book {color:blue;
+text-align: center;}
+h2 {color:pink;
+  background-color: rgb(181, 43, 199);
+text-align:center;
+border:solid;
+text-underline-position: none;
+text-decoration-line: none;}
 .nav {border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
@@ -10,9 +20,7 @@
 .nav a{display:inline-block;
     padding:10px;}
     * {box-sizing: border-box}
-    .intro p {color: rgb(226, 123, 27);
-      background-color: none;
-    align-items: center}
+    
     /* Full-width input fields */
       input[type=text], input[type=password] {
       width: 100%;
@@ -22,11 +30,9 @@
       border: none;
       background: #f1f1f1;
     }
-   
-    
-    input[type=text]:focus, input[type=password]:focus {
-      background-color: #ddd;
-      outline: none;
+      input[type=text]:focus, input[type=password]:focus {
+      background-color: blue;
+      outline: purple;
     }
     
     hr {
