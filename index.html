@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href=style.css>
+   <script src="./index.js"></script>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <title>WordBook</title>
+</head>
+<h1>Web<span class="book">Mart</span></h1>
+    <div>
+        <ul class="nav">
+        <li><a href="#home">Home</li>
+        <li><a href="#cat">Store</li>
+        <li><a href="#art">Account</li>
+        <li><a href="#about">About</li>
+      </div>
+      <div>
+     <h2 id="intro"></h2>
+     </div>
+      <div>
+      <!-- <form id='register'  action="javascript:submitForm(this)" method='POST' accept-charset='UTF-8'> -->
+    <form id='register'  action="javascript:void(0)" onSubmit="subimitForm()" method='POST' accept-charset='UTF-8'>
+      
+          <fieldset >
+      
+          <legend>Register</legend>
+      
+          <input type='hidden' name='submitted' id='submitted' value='1'/>
+      
+          <label for='name' >Full Name or Pen Name: </label>
+      
+          <input type='text' name='name' id='name' maxlength="50" />
+      
+          <label for='email' >Email Address*:</label>
+      
+          <input type='text' name='email' id='email' maxlength="50" />
+      
+           
+      
+          <label for='username' >UserName*:</label>
+      
+          <input type='text' name='username' id='username' maxlength="50" />
+      
+           
+      
+          <label for='password' >Password*:</label>
+      
+          <input type='password' name='password' id='password' maxlength="50" />
+      
+          <input type='submit' name='Submit' value='Submit' />
+      
+           
+      
+          </fieldset>
+      
+          </form>
+        </div>  
+            <div>
+            
+          <form id='submission' action='login.php' method='POST' accept-charset='UTF-8'>
+                
+                <fieldset >
+                
+                <legend>Login</legend>
+                
+                <input type='hidden' name='submitted' id='submitted' value='1'/>
+                
+                 
+                
+                <label for='username' >UserName*:</label>
+                
+                <input type='text' name='username' id='username'  maxlength="50" />
+                
+                 
+            
+                <label for='password' >Password*:</label>
+                
+                <input type='password' name='password' id='password' maxlength="50" />
+                
+                 
+                
+                <input type='submit' name='Submit' value='Submit' />
+                
+                 
+                
+                </fieldset>
+                
+                </form>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+</html>
