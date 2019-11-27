@@ -1,0 +1,11 @@
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5 px solid rgb(86, 98, 110);
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+.media > * {
+    flex: 1 1 250px;
+    margin: 10px;
+}
