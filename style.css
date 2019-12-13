@@ -1,8 +1,6 @@
-.container_12 {
-  display: grid;
-}
+
 *{font-family: Arial, Verdana, sans-sherif;
-  color: #86170f;
+  color: #0f7486;
   text-align: center}
   #nav #feature .article #footer {
     background-color: #efefef;
@@ -13,16 +11,17 @@
 
 li{display: inline;
 padding: 5px;}
-h1 {color:red;
-text-align:center;}
-.book {color:rgb(238, 24, 227);
+h1 {color:rgb(97, 17, 17);
+  background-color:rgb(57, 192, 197);
+  text-align:center;
+  border:solid;
+  border-color: blue;
+  padding: 10px;}
+.book {color:rgb(24, 45, 238);
 text-align: center;}
-h1 {color:pink;
-  background-color: rgb(181, 43, 199);
-text-align:center;
-border:solid;
-}
-.nav {border:1px solid #ccc;
+.nav {
+  background-color: #ccc;
+  border:1px solid #ccc;
     border-width:1px 0;
     margin:0;
     padding:0;
@@ -34,12 +33,19 @@ border:solid;
     padding:10px;}
     * {box-sizing: border-box}
 .flex-container{
-  display:inline-block;
-    padding:10px;}
-    * {box-sizing: border-box;
-      flex-direction: row;
+  display:flex;
+   box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid;
+    
 }
-      
+     #welcome h2{
+       display: inline;
+       align-content: center;
+     } 
+     
 .media {
   display: flex;
   flex-wrap: wrap;
