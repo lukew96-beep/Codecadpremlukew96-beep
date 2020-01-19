@@ -1,23 +1,8 @@
 *{font-family: Arial, Verdana, sans-sherif;
-color: #0f7486;
+color: #86170f;
 text-align: center}
-h1 {color: rgb(97, 17, 17);
-    background-color:rgb(57, 192, 197);
-    text-align:center;
-    border:solid;
-    border-color: blue;
-    padding: 10px;}
-#shop {
-    color: blue;
-}
-#one {
-    color: rgb(97, 17, 17);
-}
-  #two {
-      color: blue;
-  }
 .nav {
-    background-color: #ccc;
+    background-color: violet;
     margin-top: 20px;
     padding: 10px 0px 5px 0px;
     border:1px solid #ccc;
@@ -45,13 +30,14 @@ h1 {color: rgb(97, 17, 17);
 ul{display: inline;
 padding: 5px}
 .flex-container{
-    display:flex;
-     box-sizing: border-box;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      border: solid;
-      }
+    display:-ms-inline-flexbox;
+    grid-column-gap: 15px;
+    grid-template-columns: repeat (auto-fit, minimax (300px, 1fr));
+      padding:10px;}
+      * {box-sizing: border-box;
+        flex-direction: row;
+  }
+  
 .media {
     display: flex;
     flex-wrap: wrap;
